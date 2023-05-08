@@ -36,7 +36,9 @@ const App = () => {
   }, [searchQuery, page]);
 
   const handleClick = () => {
+
     if (!endOfResults) {
+      
       fetchImages();
     }
   };
